@@ -1,0 +1,6 @@
+Building queries:
+Biblioteca pentru reprezentarea, citirea si interogarea de tabele
+
+read_table :: ColSeparator -> LnSeparator -> String -> Table - citeste tabela
+show_table :: Table -> String - afiseaza tabela
+eval :: Query -> Table - evalueaza interogarea tabelei
